@@ -1,0 +1,32 @@
+<html>
+<head></head>
+<body>
+<p id="demo"></p>
+<form>
+First subject:<input type="number" id="str1"><br>
+Second subject:<input  type="number" id="str2"><br>
+Third subject :<input  type="number" id="str3"><br>
+Fourth subject:<input  type="number" id="str4"><br>
+Fifth subject:<input  type="number" id="str5"><br>
+
+<button onclick="displayCount()">click</button><br>
+</form>
+<script language="javascript" type="text/javascript">
+
+
+function displayCount()
+{
+var s1=document.getElementById('str1').value;
+var s2=document.getElementById('str2').value;
+var s3=document.getElementById('str3').value;
+var s4=document.getElementById('str4').value;
+var s5=document.getElementById('str5').value;
+var total =parseInt(s1)+parseInt(s2)+parseInt(s3)+parseInt(s4)+parseInt(s5);
+
+document.write(total+"<br>")
+
+}
+
+</script>
+</body>
+</html>
